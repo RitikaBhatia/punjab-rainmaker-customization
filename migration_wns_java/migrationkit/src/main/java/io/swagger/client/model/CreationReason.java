@@ -30,7 +30,7 @@ public enum CreationReason {
   AMALGAMATION ("AMALGAMATION"),
     
   DATA_UPLOAD ("DATA_UPLOAD"),
-  
+  STATUS("STATUS"),
   UPDATE("UPDATE");
 
   private String value;
