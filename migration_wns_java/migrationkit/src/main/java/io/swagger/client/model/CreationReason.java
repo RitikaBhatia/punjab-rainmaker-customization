@@ -22,7 +22,7 @@ public enum CreationReason {
   CREATE("CREATE"),
   
   MUTATION ("MUTATION"),
-  
+  STATUS("STATUS"),
   LEGACY_ENTRY ("LEGACY_ENTRY"),
   
   BIFURCATION ("BIFURCATION"),
@@ -30,7 +30,7 @@ public enum CreationReason {
   AMALGAMATION ("AMALGAMATION"),
     
   DATA_UPLOAD ("DATA_UPLOAD"),
-  STATUS("STATUS"),
+  
   UPDATE("UPDATE");
 
   private String value;
